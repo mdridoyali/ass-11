@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* App.css */
+:root {
+    --background-color-light: #f9f9f9;
+    --text-color-light: #191919;
+    --background-color-dark: rgb(40, 55, 72);
+    --text-color-dark: #ffffff;
+  }
+  /* Light Mode */
+  body.light {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+  }
+  
+  /* Dark Mode */
+  body.dark {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+  }
+
+
